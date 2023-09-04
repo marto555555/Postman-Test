@@ -9,7 +9,7 @@ GET /status
 
 Devuelve el status de la API.
 
-## Listado de Libros## 
+## Listado de Libros ## 
 GET /books
 
 Devuelve listado de libros .
