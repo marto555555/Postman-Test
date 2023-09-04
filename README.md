@@ -31,8 +31,8 @@ Permite realizar una nueva orden. Requiere authentication.
 
 La "request body" debe ser en formato JSON e incluir las siguientes propiedades:
 
--`bookId` - Integer - Requerido
--`customerName` - String - Requerido
+- `bookId` - Integer - Requerido
+- `customerName` - String - Requerido
 Ejemplo:
 ```
 POST `/orders/`
@@ -93,8 +93,8 @@ POST `/api-clients/`
 
 El "request body" debe ser en formato JSON e incluir las siguientes propiedades:
 
--`clientName` - String
--`clientEmail` - String
+- `clientName` - String
+- `clientEmail` - String
 Ejemplo:
 ```
 {
