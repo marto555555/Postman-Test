@@ -16,8 +16,8 @@ Devuelve listado de libros .
 
 Query parameters opcionales :
 
-type: fiction or non-fiction
-limit: a number between 1 and 20.
+- type: fiction o non-fiction
+- limit: un número entre 1 and 20.
 
 ## Obtener un libro ##
 GET `/books/:bookId`
