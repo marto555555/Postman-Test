@@ -24,7 +24,7 @@ GET /books/:bookId
 
 Obtenemos informacion detallada de un libro.
 
-## Pedir una orde n##
+## Realizar una orden ##
 POST /orders
 
 Permite realizar una nueva orden. Requiere authentication.
