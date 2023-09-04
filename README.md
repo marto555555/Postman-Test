@@ -33,6 +33,7 @@ La "request body" debe ser en formato JSON e incluir las siguientes propiedades:
 
 - `bookId` - Integer - Requerido
 - `customerName` - String - Requerido
+
 Ejemplo:
 ```
 POST `/orders/`
@@ -95,6 +96,7 @@ El "request body" debe ser en formato JSON e incluir las siguientes propiedades:
 
 - `clientName` - String
 - `clientEmail` - String
+
 Ejemplo:
 ```
 {
