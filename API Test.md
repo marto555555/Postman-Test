@@ -1,6 +1,7 @@
 Books API
+
 Esta API nos permite reservar un libro.
-The API is available at https://simple-books-api.glitch.me
+
 
 ## Endpoints ##
 
