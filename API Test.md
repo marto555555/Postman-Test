@@ -90,7 +90,7 @@ Authorization: Bearer <YOUR TOKEN>
 ```
 
 ## API Authentication ##
-Para entregar o ver una order, debemos registrar nuestra API client.
+Para realizar un pedido o ver una order, debemos registrar nuestra API client.
 
 POST `/api-clients/`
 
