@@ -28,7 +28,7 @@ Obtenemos informacion detallada de un libro.
 ## Realizar una orden ##
 POST `/orders`
 
-Permite realizar una nueva orden. Requiere authentication.
+Permite realizar una nueva orden. Requiere autentificación.
 
 La "request body" debe ser en formato JSON e incluir las siguientes propiedades:
 
