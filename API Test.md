@@ -64,7 +64,7 @@ Actualizar un pedido existente. Requiere authentication.
 
 El "request body" debe ser en formato JSON y nos permite editar las siguientes propiedades:
 
--`customerName` - String
+- `customerName` - String
 
 Ejemplo:
 ```
