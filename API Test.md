@@ -25,10 +25,10 @@ GET `/books/:bookId`
 
 Obtenemos informacion detallada de un libro.
 
-## Realizar una orden ##
+## Realizar un pedido ##
 POST `/orders`
 
-Permite realizar una nueva orden. Requiere autentificación.
+Permite realizar un nuevo pedido. Requiere autentificación.
 
 La "request body" debe ser en formato JSON e incluir las siguientes propiedades:
 
@@ -47,20 +47,20 @@ Authorization: Bearer <YOUR TOKEN>
 ```
 La respuesta del body contiene el order Id.
 
-## Obtener todas las ordenes ##
+## Obtener todos los pedidos ##
 GET `/orders`
 
-Permite ver todas las ordenes. Requiere authentication.
+Permite ver todas los pedidos. Requiere authentication.
 
 ## Obtener un pedido. ##
 GET `/orders/:orderId`
 
-Nos permite ver todas las ordenes existentes. Requiere authentication.
+Nos permite ver todas un pedido existente. Requiere authentication.
 
-## Actualizar una orden. ##
+## Actualizar un pedido. ##
 PATCH `/orders/:orderId`
 
-Actualizar una orden existente. Requiere authentication.
+Actualizar un pedido existente. Requiere authentication.
 
 El "request body" debe ser en formato JSON y nos permite editar las siguientes propiedades:
 
@@ -76,10 +76,10 @@ Authorization: Bearer <YOUR TOKEN>
 }
 ```
 
-## Eliminar una orden. ##
+## Eliminar un pedido. ##
 DELETE `/orders/:orderId`
 
-Elimina una orden existente. Requiere authentication.
+Elimina un pedido existente. Requiere authentication.
 
 El "request body" debe estar vacío.
 
@@ -90,7 +90,7 @@ Authorization: Bearer <YOUR TOKEN>
 ```
 
 ## API Authentication ##
-Para realizar un pedido o ver una order, debemos registrar nuestra API client.
+Para realizar o ver un pedido, debemos registrar nuestra API client.
 
 POST `/api-clients/`
 
